@@ -1,0 +1,23 @@
+.container .buttonsArea {
+  display: flex; }
+
+.container .actions {
+  width: 80px;
+  height: 80px;
+  float: left; }
+
+.container .button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  outline: none;
+  cursor: hand;
+  border: 0;
+  transition: all 0.3s ease 0s;
+  padding: 10px;
+  margin: 10px;
+  font-size: 28px; }
+  .container .button:hover {
+    font-size: 33px; }
+  .container .button:active {
+    font-size: 28px; }

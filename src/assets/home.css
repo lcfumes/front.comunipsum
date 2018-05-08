@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 .container .buttonsArea {
   display: flex; }
 
@@ -5,6 +6,16 @@
   width: 80px;
   height: 80px;
   float: left; }
+
+.container .counter {
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-size: 16px; }
+
+.container .phrases {
+  font-family: Montserrat; }
+  .container .phrases li {
+    list-style: none; }
 
 .container .button {
   background-color: Transparent;

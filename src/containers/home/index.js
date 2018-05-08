@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import faPlus from '@fortawesome/fontawesome-free-solid/faPlus'
 import faMinus from '@fortawesome/fontawesome-free-solid/faMinus'
+import logo from '../../assets/images/comunipsum_v1.png'
 
 import '../../assets/home.css'
 
@@ -15,8 +16,9 @@ import {
 
 const Home = props => {
   return <div className="container">
-    <h1>Comunipsum</h1>
-    <p>Count: {props.total}</p>
+    <h1><img src={logo} width="280px"/></h1>
+
+    <p class="counter">Count: {props.total}</p>
 
     <div className="buttonsArea">
       <div className="actions">      
@@ -37,7 +39,7 @@ const Home = props => {
       </div>
     </div>
 
-    <div>
+    <div class="phrases">
       <ul>
         {props.phrases.map((phrase) => {
           return <li>
